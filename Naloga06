@@ -1,6 +1,6 @@
-for mapa in mapa1 mapa2 mapa3 mapa4 mapa5;do mkdir $mapa;done
+for mapa in map1 map2 map3 map4 map5;do mkdir $mapa;done
 
-for uporabnik in nace tian luka maja nika; do sudo useradd -m --groups sudo $uporabnik;done
+for uporabnik in tilen tian luka maja nika; do sudo useradd -m --groups sudo $uporabnik;done
 
 sudo apt-get update
 
